@@ -121,7 +121,7 @@ namespace FileManager
                         end = false;
                         break;
 
-                    default:
+                 default:
                         Console.WriteLine("Введена не правильная команда");
                         break;
                 }
