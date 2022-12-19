@@ -17,10 +17,12 @@ namespace FileManager
 
                 switch (name)
                 {
+                    static void Help(string[] args)
                     case "Help":
                         Console.WriteLine("Info -Выводит список файлов в каталоге\nCD-Переход в каталог\nDel-Удаление файла по имени\nDelM-Удаление файла по маске\nCrea-Создание файла\nCopy-Копирование файла");
                         break;
-                    case "Info":
+                    static void Info(string[] args)
+                case "Info":
                         List<string> q = new List<string>();
                         Console.WriteLine("Введите путь каталога");
                         string p = Console.ReadLine();
@@ -48,7 +50,7 @@ namespace FileManager
                             Console.WriteLine("{0} ", q[k]);
                         break;
 
-
+                static void CD(string[] args)
                     case "CD":
                         string filePath = "E:\\Новая папка\\Новая папка\\Новая папка";
                         string directoryName;
@@ -67,7 +69,7 @@ namespace FileManager
                             i++;
                         }
                         break;
-
+                static void Del(string[] args)
                     case "Del":
                         string DeleteThis;
                         string pyt;
@@ -85,7 +87,7 @@ namespace FileManager
                             }
                         }
                         break;
-
+                static void DelM(string[] args)
                     case "DelM":
                         string DeleteThis1;
                         string pyt1;
@@ -102,14 +104,14 @@ namespace FileManager
                         }
 
                         break;
-
+                static void Crea(string[] args)
                     case "Crea":
                         string pyt2;
                         Console.WriteLine("Введите путь куда создать и имя файла");
                         pyt2 = Console.ReadLine();
                         File.Create(pyt2);
                         break;
-
+                static void Copy(string[] args)
                     case "Copy":
                         Console.WriteLine("Введите путь копируемого файла");
                         string pathToFile = Console.ReadLine();
@@ -117,7 +119,8 @@ namespace FileManager
                         string pathToFile1 = Console.ReadLine();
                         File.Copy(pathToFile, pathToFile1, true);
                         break;
-                    case "Exit":
+                static void Exit(string[] args)    
+                case "Exit":
                         end = false;
                         break;
 

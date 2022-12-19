@@ -1,0 +1,14 @@
+G:\Мой диск\Repos\FileManager\bin\Debug\netcoreapp3.1\FileManager.exe
+G:\Мой диск\Repos\FileManager\bin\Debug\netcoreapp3.1\FileManager.deps.json
+G:\Мой диск\Repos\FileManager\bin\Debug\netcoreapp3.1\FileManager.runtimeconfig.json
+G:\Мой диск\Repos\FileManager\bin\Debug\netcoreapp3.1\FileManager.runtimeconfig.dev.json
+G:\Мой диск\Repos\FileManager\bin\Debug\netcoreapp3.1\FileManager.dll
+G:\Мой диск\Repos\FileManager\bin\Debug\netcoreapp3.1\FileManager.pdb
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.csproj.AssemblyReference.cache
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.GeneratedMSBuildEditorConfig.editorconfig
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.AssemblyInfoInputs.cache
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.AssemblyInfo.cs
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.csproj.CoreCompileInputs.cache
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.dll
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.pdb
+G:\Мой диск\Repos\FileManager\obj\Debug\netcoreapp3.1\FileManager.genruntimeconfig.cache
